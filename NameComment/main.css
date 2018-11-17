@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  font-family: sans-serif, Arial, Segoe, Verdana; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+	font-weight: lighter;
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  margin: 0;
+}
+
+
+#clcNeko{
+	height: 40px;
+}
+.Startext {
+	font-size: 40px;
+	line-height: 60px;
+}
+
+.Startextsmall {
+	font-size: 25px;
+	line-height: 30px;
+}
+
+td {
+	align-content: center;
+}
+
+.content {
+	margin-top: 10px;
+	position:absolute;
+	left:50%;
+	width: 500px;
+	margin-left: -250px;
+}
+
+button {
+	line-height: 40px;
+	align-self: center;
+	font-size: 35px;
+}
+
+a {
+	background: #222222;
+    color: #ACACAC;
+}
+
+a :hover {
+    
+    background: #000000;
+    color: #FFFFFF;
+}
